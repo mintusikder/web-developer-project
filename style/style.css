@@ -28,9 +28,8 @@
 /* banner section */
 .hero {
   background-image: url("../assets/Hero-bg.png");
-  /* Hero-bg */
   position: absolute;
-  width: 1440px;
+  width: 1536px;
   height: 652px;
   left: 0;
   right: 0;
@@ -69,4 +68,59 @@
 }
 .hero-btn {
   text-align: center;
+}
+/* developer section */
+.developer {
+  margin-top: 96px;
+}
+.developer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.developer-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.developer-subtitle {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 84px;
+  margin-top: 15px;
+}
+.developer-learn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+.developer-learn-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.developer-learn-subtitle {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 14px;
+  margin-bottom: 24px;
 }
