@@ -124,3 +124,35 @@
   margin-top: 14px;
   margin-bottom: 24px;
 }
+/* Inspiration section  */
+.inspiration{
+  margin-top: 64px;
+  margin-bottom: 60px;
+}
+.inspiration-title{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.inspiration-subtitle{
+
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 18px;
+margin-bottom: 48px;
+
+}
+.inspiration-video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
