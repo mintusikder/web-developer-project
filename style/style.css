@@ -125,34 +125,113 @@
   margin-bottom: 24px;
 }
 /* Inspiration section  */
-.inspiration{
+.inspiration {
   margin-top: 64px;
   margin-bottom: 60px;
 }
-.inspiration-title{
+.inspiration-title {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-.inspiration-subtitle{
-
+.inspiration-subtitle {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 18px;
-margin-bottom: 48px;
-
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 48px;
 }
-.inspiration-video{
+.inspiration-video {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* Current Target */
+.target-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.target-subtitle {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 36px;
+}
+.learning-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.learning-box {
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 32px;
+}
+.learning-box-1 {
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 32px;
+}
+
+.learning-box-2 {
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 32px;
+}
+.learning-subtitle {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.learning-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 30px;
+}
+.learn-btn {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
 }
