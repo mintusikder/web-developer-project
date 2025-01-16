@@ -28,13 +28,13 @@
 /* banner section */
 .hero {
   background-image: url("../assets/Hero-bg.png");
-  position: absolute;
+  /* position: absolute; */
   width: 1536px;
   height: 652px;
-  left: 0;
+  /* left: 0;
   right: 0;
   top: 131px;
-  bottom: 4462px;
+  bottom: 4462px; */
 }
 .hero-img {
   display: flex;
@@ -234,4 +234,7 @@
   letter-spacing: 0%;
   text-align: left;
   text-decoration-line: underline;
+}
+.footer{
+  text-align: center;
 }
